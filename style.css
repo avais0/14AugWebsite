@@ -1,0 +1,151 @@
+/* Reset margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body background - Pakistani Flag */
+body {
+    font-family: Arial, sans-serif;
+    color: rgba(220, 205, 205, 0.826);
+    min-height: 100vh;
+    background:url(img/gettyimages-533741226-640x640.jpg);
+    background-size: cover;
+    
+    
+
+}
+
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+}
+
+/* Logo */
+.logo img {
+    height: 60px;
+    border-radius: 8px;
+}
+
+/* Navbar */
+.navbar a {
+    color: rgb(214, 209, 209);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: rgb(232, 232, 141);
+}
+
+/* Main Section */
+main {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+main h1 {
+    font-size: 3rem;
+    color: rgb(231, 229, 224);
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1.2rem;
+    color: rgba(45, 43, 43, 0.71);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Gallery */
+.gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.contact-form button {
+    background-color: #006600;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #004d00;
+}
+
+.history-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     max-width: 400px;
+    margin: auto
+    
+    
+}
+.history-content h2{
+    text-align: center;
+    color: rgba(27, 27, 15, 0.805);
+    overflow: hidden;
+}
+
+
+.history-content p{
+    text-align: center;
+    color: beige;
+    
+    
+
+
+}
+ul.imp{
+    color: rgb(14, 15, 15);
+    font-size: 19px;
+
+
+}
+div{
+    display: flex;    
+    justify-content: center;
+
+}
